@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class RecipesController < ApplicationController
-  # include ContentfulRescuer
+  include ContentfulRescuer
+
   CONTENT_TYPE = 'recipe'
   PER_PAGE = 2
 
