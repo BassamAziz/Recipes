@@ -7,9 +7,6 @@ class RecipesController < ApplicationController
   PER_PAGE = 2
 
   def index
-    # DOCKER!!! SHE ASKED ABOUT IT AND IT'S PRODUCTION READY
-    # controller tests
-    # readme
     @recipes = RecipeDecorator.decorate_collection(recipes)
   end
 

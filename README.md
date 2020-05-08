@@ -1,24 +1,58 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Getting Started
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+### Clone the repository
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install a recent Ruby version
 
-* Deployment instructions
 
-* ...
+
+using [rbenv](https://github.com/rbenv/rbenv):
+
+
+
+```shell
+rbenv install 2.5.1
+```
+
+
+
+### Install dependencies
+
+
+
+
+```shell
+bundle
+```
+
+
+
+### Set environment variables
+
+
+
+Create a `.env` file in the root directory, with the following format:
+
+    CONTENTFUL_ACCESS_TOKEN: <provided access_token>
+    CONTENTFUL_SPACE_ID: <provided space_id>
+
+
+## Serve
+
+
+
+```shell
+rails s
+```
+## Run the tests
+
+```shell
+rspec
+```
