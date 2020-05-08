@@ -51,6 +51,11 @@ Create a `.env` file in the root directory, with the following format:
 ```shell
 rails s
 ```
+
+## See Content
+
+open your browser and go to `localhost:3000/recipes`
+
 ## Run the tests
 
 ```shell
